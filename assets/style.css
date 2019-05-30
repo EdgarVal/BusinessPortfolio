@@ -1,0 +1,92 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: rgb(134, 0, 179);
+    position: relative;
+    
+}
+
+#home {
+    width: 100%;
+    max-height: inherit;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://fgallardo.files.wordpress.com/2016/10/non-reception-air.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Acme', sans-serif;
+    position: relative;
+    padding-bottom: 200px;
+}
+
+h1 {
+    text-shadow: 3px 3px 6px #000000;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px 4px gray;
+}
+
+#pic {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    border-style: solid;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+h2:before,
+h2:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    color: black;
+    background-color: black;
+}
+
+.view {
+    width: 50%;
+}
+
+i {
+    color: black;
+}
+
+i:hover {
+    color: red;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    border-top: 2px black solid;
+    color: white;
+    background-color: purple;
+}
+
+li {
+    display: inline; 
+    margin: 0 5px 0;
+}
