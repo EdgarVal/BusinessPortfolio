@@ -106,8 +106,11 @@ li {
         background-size: 100% 100%;
         /* -webkit-background-size: 100% 100%; */
         /* background-size: center; */
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
         background-repeat: no-repeat;
-        background-attachment: scroll;
+        background-attachment: fixed;
         font-family: 'Acme', sans-serif;
         position: relative;
         padding-bottom: 200px;
