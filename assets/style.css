@@ -102,9 +102,8 @@ li {
         max-height: inherit;
         margin: 0;
         padding: 0;
-        /* background-image: url("https://mariop.site/wp-content/uploads/2018/09/living-room-lights-argos-ideas-singapore-furniture-near-me-painting-on-a-wall-world-magnificent-free-artwork-mockup.jpg"); */
         background-image: url("https://colorwallpaper.net/wp-content/uploads/2018/06/bear-stand-field.jpg");
-        background-size: auto;
+        background-size: 100% 100%;
         /* background-size: center; */
         background-repeat: no-repeat;
         background-attachment: fixed;
