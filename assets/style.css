@@ -107,7 +107,7 @@ li {
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-attachment: fixed !important;
-        /* position: relative; */
+        position: relative;
         font-family: 'Acme', sans-serif;
         padding-bottom: 200px;
     }
