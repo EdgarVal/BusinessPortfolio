@@ -91,7 +91,7 @@ li {
     margin: 0 5px 0;
 }
 
-@media only screen and (max-width: 567px) {
+@media only screen and (max-width: 376px) {
     #bio {
         float: left;
         display: inline-block;
@@ -102,13 +102,33 @@ li {
         max-height: inherit;
         margin: 0;
         padding: 0;
-        background-image: url("https://mariop.site/wp-content/uploads/2018/09/living-room-lights-argos-ideas-singapore-furniture-near-me-painting-on-a-wall-world-magnificent-free-artwork-mockup.jpg");
-        background-size:100% 100%;
+        /* background-image: url("https://mariop.site/wp-content/uploads/2018/09/living-room-lights-argos-ideas-singapore-furniture-near-me-painting-on-a-wall-world-magnificent-free-artwork-mockup.jpg"); */
+        background-image: url("https://colorwallpaper.net/wp-content/uploads/2018/06/bear-stand-field.jpg");
+        /* background-size: 100% 100%; */
+        background-size: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
         font-family: 'Acme', sans-serif;
         position: relative;
         padding-bottom: 200px;
+    }
+
+    html, body {
+        color: #ff6600;
+    }
+
+    h2, h3 {
+        text-shadow: 2px 2px 4px black;
+    }
+
+    P {
+        color: white;
+        text-align: center;
+        text-shadow: 2px 2px 4px black; 
+    }
+
+    footer {
+        background-color: #ff6600;
     }
 
 }
