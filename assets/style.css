@@ -98,7 +98,7 @@ li {
     }
     
     #home {
-        width: auto;
+        width: 100%;
         /* max-height: inherit; */
         margin: 0;
         padding: 0;
@@ -107,7 +107,7 @@ li {
         /* -webkit-background-size: 100% 100%; */
         /* background-size: center; */
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: scroll;
         font-family: 'Acme', sans-serif;
         position: relative;
         padding-bottom: 200px;
