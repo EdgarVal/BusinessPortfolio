@@ -103,11 +103,11 @@ li {
         margin: 0;
         padding: 0;
         background-image: url("https://www.setaswall.com/wp-content/uploads/2018/04/1125x2436-Wallpaper-389.jpg");
-        /* background-position: top; */
+        background-position: top;
         background-repeat: no-repeat;
         background-size: contain;
         background-attachment: fixed !important;
-        position: relative;
+        /* position: relative; */
         font-family: 'Acme', sans-serif;
         padding-bottom: 200px;
     }
