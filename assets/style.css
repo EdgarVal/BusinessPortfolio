@@ -99,14 +99,14 @@ li {
     
     #home {
         width: 100%;
-        max-height: inherit;
+        /* max-height: inherit; */
         margin: 0;
         padding: 0;
         background-image: url("https://www.setaswall.com/wp-content/uploads/2018/04/1125x2436-Wallpaper-389.jpg");
-        background-size: 100% 100%;
+        background-size: auto 100%;
         background-repeat: no-repeat;
-        background-attachment: scroll;
-        /* position: relative; */
+        background-attachment: fixed;
+        background-position: relative;
         font-family: 'Acme', sans-serif;
         padding-bottom: 200px;
     }
