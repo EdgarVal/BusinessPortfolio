@@ -91,7 +91,7 @@ li {
     margin: 0 5px 0;
 }
 
-@media  screen and (orientation: portrait) {
+@media only screen and (max-width: 376px), screen and (orientation: portrait) {
 
     #bio {
         float: left;
