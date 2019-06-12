@@ -104,7 +104,10 @@ li {
         display: inline-block;
         margin: 0;
         padding: 0;
-        background-image: url("https://www.setaswall.com/wp-content/uploads/2018/04/1125x2436-Wallpaper-389.jpg");
+        /* background-image: url("https://www.setaswall.com/wp-content/uploads/2018/04/1125x2436-Wallpaper-389.jpg"); */
+        background: #70e1f5; 
+        background: -webkit-linear-gradient(to bottom, #70e1f5, #ffd194); 
+        background: linear-gradient(to bottom, #70e1f5, #ffd194);
         background-position: top;
         background-size: 100% 100%;
         background-attachment: fixed;
@@ -124,7 +127,7 @@ li {
     P {
         color: white;
         text-align: center;
-        text-shadow: 2px 2px 4px #ff6600; 
+        text-shadow: 2px 2px 4px black; 
     }
 
     footer {
