@@ -91,7 +91,7 @@ li {
     margin: 0 5px 0;
 }
 
-@media screen and (max-width: 376px), screen and (orientation: portrait) {
+@media  screen and (orientation: portrait) {
 
     #bio {
         float: left;
@@ -103,8 +103,8 @@ li {
         /* max-height: inherit; */
         margin: 0;
         padding: 0;
-        /* background-image: url("https://www.setaswall.com/wp-content/uploads/2018/04/1125x2436-Wallpaper-389.jpg"); */
-        background: linear-gradient(-90deg, #e6dada #274046);
+        background-image: url("https://www.setaswall.com/wp-content/uploads/2018/04/1125x2436-Wallpaper-389.jpg");
+        /* background:  #e6dada #274046; */
         background-position: top;
         background-size: 100% 100%;
         background-attachment: fixed;
